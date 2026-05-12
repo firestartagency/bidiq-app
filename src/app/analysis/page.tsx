@@ -60,7 +60,6 @@ const STATUS_CLS: Record<string, string> = {
 export default function AnalysisPage() {
   const [activeAgencyTab, setActiveAgencyTab] = useState<'winRate' | 'avgScore'>('winRate');
   const maxPipeline = PIPELINE[0].value;
-  const total = WIN_LOSS.won + WIN_LOSS.lost + WIN_LOSS.active;
 
   return (
     <div className={s.page}>
