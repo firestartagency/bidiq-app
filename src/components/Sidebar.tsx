@@ -6,7 +6,7 @@ import s from './Sidebar.module.css';
 
 const navItems = [
   { label: 'Dashboard',        href: '/',          icon: 'fas fa-th-large' },
-  { label: 'Active Bids',      href: '/bids',      icon: 'fas fa-file-search' },
+  { label: 'Active Bids',      href: '/bids',      icon: 'fas fa-gavel' },
   { label: 'Proposals',        href: '/proposals', icon: 'fas fa-file-signature' },
   { label: 'Analysis',         href: '/analysis',  icon: 'fas fa-chart-bar' },
   { label: 'Company Profile',  href: '/profile',   icon: 'fas fa-building' },

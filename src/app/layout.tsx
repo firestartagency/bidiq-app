@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google';
 import './globals.css';
 import Sidebar from '@/components/Sidebar';
 import TopBar from '@/components/TopBar';
+import AuthGate from '@/components/AuthGate';
 
 const inter = Inter({
   subsets: ['latin'],
@@ -26,13 +27,15 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         />
       </head>
       <body>
-        <div className="app-shell">
-          <Sidebar />
-          <div className="app-main">
-            <TopBar />
-            <main className="app-content">{children}</main>
+        <AuthGate>
+          <div className="app-shell">
+            <Sidebar />
+            <div className="app-main">
+              <TopBar />
+              <main className="app-content">{children}</main>
+            </div>
           </div>
-        </div>
+        </AuthGate>
       </body>
     </html>
   );

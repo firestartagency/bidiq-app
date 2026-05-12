@@ -352,3 +352,25 @@
   border: none;
   cursor: not-allowed;
 }
+
+.rerunBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 7px 14px;
+  background: #fff;
+  border: 1px solid #E5E7EB;
+  border-radius: var(--radius-md);
+  font-size: 13px;
+  font-weight: 600;
+  color: #374151;
+  cursor: pointer;
+  transition: background 150ms, border-color 150ms;
+}
+.rerunBtn:hover {
+  background: #F9FAFB;
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+}
+.rerunBtn:hover i { animation: spin 0.6s linear; }
+

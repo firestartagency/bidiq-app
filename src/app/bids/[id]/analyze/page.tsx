@@ -66,14 +66,30 @@ function sleep(ms: number): Promise<void> {
 }
 
 export default function AnalyzePage({ params }: { params: { id: string } }) {
-  const [currentStep, setCurrentStep]         = useState(1);
-  const [done, setDone]                       = useState(false);
-  const [progress, setProgress]               = useState(0);
-  const [visibleLogs, setVisibleLogs]         = useState<string[]>([]);
-  const [showReqTable, setShowReqTable]       = useState(false);
-  const [showCompMatrix, setShowCompMatrix]   = useState(false);
-  const logEndRef                             = useRef<HTMLDivElement>(null);
-  const cancelledRef                          = useRef(false);
+  const [runKey, setRunKey]                     = useState(0);
+  const [currentStep, setCurrentStep]           = useState(1);
+  const [done, setDone]                         = useState(false);
+  const [progress, setProgress]                 = useState(0);
+  const [visibleLogs, setVisibleLogs]           = useState<string[]>([]);
+  const [showReqTable, setShowReqTable]         = useState(false);
+  const [showCompMatrix, setShowCompMatrix]     = useState(false);
+  const logEndRef                               = useRef<HTMLDivElement>(null);
+  const cancelledRef                            = useRef(false);
+
+  /* ---- reset + re-run ---- */
+  function rerun() {
+    cancelledRef.current = true;          // cancel any in-flight sequence
+    setTimeout(() => {
+      cancelledRef.current = false;
+      setCurrentStep(1);
+      setDone(false);
+      setProgress(0);
+      setVisibleLogs([]);
+      setShowReqTable(false);
+      setShowCompMatrix(false);
+      setRunKey(k => k + 1);             // increment → triggers useEffect
+    }, 50);
+  }
 
   /* ---- auto-scroll log ---- */
   useEffect(() => {
@@ -143,7 +159,7 @@ export default function AnalyzePage({ params }: { params: { id: string } }) {
 
     runSequence();
     return () => { cancelledRef.current = true; };
-  }, []); // empty — runs exactly once
+  }, [runKey]); // re-runs whenever runKey increments
 
   return (
     <div className={s.page}>
@@ -165,6 +181,11 @@ export default function AnalyzePage({ params }: { params: { id: string } }) {
             <p className={s.pageSub}>Gemini processes the solicitation and generates a structured proposal draft</p>
           </div>
           {done && <span className={s.allDoneBadge}><i className="fas fa-check-circle" /> Analysis Complete</span>}
+          {done && (
+            <button className={s.rerunBtn} onClick={rerun} title="Re-run analysis from scratch">
+              <i className="fas fa-redo" /> Re-run Analysis
+            </button>
+          )}
         </div>
 
         <div className={s.steps}>
