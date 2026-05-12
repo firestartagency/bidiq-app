@@ -1,0 +1,204 @@
+.page {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.pageHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pageTitle { font-size: 24px; font-weight: 700; color: #111827; }
+.pageSub   { font-size: 14px; color: #6B7280; margin-top: 4px; }
+
+.importBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  background: var(--color-primary);
+  color: #fff;
+  border: none;
+  border-radius: var(--radius-md);
+  font-size: 14px;
+  font-weight: 600;
+  transition: background 150ms;
+  cursor: pointer;
+}
+.importBtn:hover { background: var(--color-primary-h); }
+
+/* Bid cards */
+.bidList {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.bidCard {
+  background: #fff;
+  border: 1px solid #E5E7EB;
+  border-radius: var(--radius-xl);
+  padding: 28px;
+  box-shadow: var(--shadow-sm);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  transition: border-color 200ms, box-shadow 200ms, transform 200ms;
+  animation: cardFadeIn 0.4s ease both;
+}
+.bidCard:hover {
+  border-color: #BFDBFE;
+  box-shadow: 0 6px 20px rgba(59,130,246,.1);
+  transform: translateY(-1px);
+}
+
+@keyframes cardFadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* Top row */
+.bidCardTop {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.agencyAvatar {
+  width: 44px;
+  height: 44px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.bidMeta { flex: 1; }
+.bidSolNum { font-size: 13px; font-weight: 700; color: #374151; }
+.bidAgency { font-size: 12px; color: #6B7280; margin-top: 2px; }
+
+/* Status badges */
+.statusBadge {
+  display: inline-flex;
+  padding: 4px 12px;
+  border-radius: var(--radius-full);
+  font-size: 12px;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+.new {
+  background: #EFF6FF;
+  color: #2563EB;
+  border: 1px solid #BFDBFE;
+  animation: badgePulse 2.4s ease-in-out infinite;
+}
+.review { background: #FFFBEB; color: #D97706; border: 1px solid #FDE68A; }
+.ready  { background: #ECFDF5; color: #059669; border: 1px solid #A7F3D0; }
+.done   { background: #F3F4F6; color: #6B7280; border: 1px solid #E5E7EB; }
+
+@keyframes badgePulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(37,99,235,.25); }
+  50%       { box-shadow: 0 0 0 5px rgba(37,99,235,0); }
+}
+
+.bidTitle {
+  font-size: 18px;
+  font-weight: 700;
+  color: #111827;
+  line-height: 1.4;
+}
+
+/* Tags */
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tag {
+  padding: 3px 10px;
+  border-radius: var(--radius-full);
+  background: #F3F4F6;
+  color: #4B5563;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.tagBlue {
+  padding: 3px 10px;
+  border-radius: var(--radius-full);
+  background: #EFF6FF;
+  color: #2563EB;
+  border: 1px solid #BFDBFE;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+/* Details grid */
+.details {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  padding: 16px;
+  background: #F9FAFB;
+  border-radius: var(--radius-md);
+}
+
+.detail { display: flex; flex-direction: column; gap: 3px; }
+.detailLabel { font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: .06em; color: #9CA3AF; }
+.detailValue { font-size: 14px; font-weight: 600; color: #111827; }
+
+/* Synopsis */
+.synopsis {
+  font-size: 13px;
+  line-height: 1.7;
+  color: #6B7280;
+}
+
+/* Actions */
+.actions {
+  display: flex;
+  gap: 12px;
+  padding-top: 4px;
+}
+
+.viewBtn {
+  padding: 9px 18px;
+  border: 1px solid #E5E7EB;
+  border-radius: var(--radius-md);
+  font-size: 14px;
+  font-weight: 500;
+  color: #374151;
+  background: #fff;
+  transition: background 150ms;
+}
+.viewBtn:hover { background: #F9FAFB; }
+
+.analyzeBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 9px 18px;
+  background: var(--color-primary);
+  color: #fff;
+  border-radius: var(--radius-md);
+  font-size: 14px;
+  font-weight: 600;
+  transition: background 150ms, transform 150ms;
+}
+.analyzeBtn:hover {
+  background: var(--color-primary-h);
+  transform: translateY(-1px);
+}
+
+@media (max-width: 768px) {
+  .details { grid-template-columns: repeat(2, 1fr); }
+}

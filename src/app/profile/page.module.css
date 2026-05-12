@@ -1,0 +1,476 @@
+.page {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+/* ---- Banner ---- */
+.banner {
+  background: linear-gradient(135deg, #1E3A8A 0%, #1E40AF 100%);
+  border-radius: var(--radius-xl);
+  padding: 28px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  box-shadow: 0 8px 32px rgba(30,58,138,.25);
+}
+
+.bannerLeft {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.companyAvatar {
+  width: 64px;
+  height: 64px;
+  background: rgba(255,255,255,.15);
+  border: 2px solid rgba(255,255,255,.3);
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: 800;
+  color: #fff;
+  flex-shrink: 0;
+}
+
+.companyName {
+  font-size: 22px;
+  font-weight: 800;
+  color: #fff;
+  margin-bottom: 6px;
+}
+
+.companyMeta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #93C5FD;
+  font-size: 13px;
+  flex-wrap: wrap;
+}
+.metaDot { opacity: .5; }
+
+.samTag {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 8px 16px;
+  background: rgba(16,185,129,.15);
+  border: 1px solid rgba(16,185,129,.35);
+  border-radius: var(--radius-full);
+  font-size: 13px;
+  font-weight: 600;
+  color: #6EE7B7;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+/* ---- Business Type Badges ---- */
+.bizBadges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.bizBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px;
+  border-radius: var(--radius-full);
+  border: 1px solid;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+/* ---- 2-column main grid ---- */
+.mainGrid {
+  display: grid;
+  grid-template-columns: 340px 1fr;
+  gap: 20px;
+  align-items: start;
+}
+
+.leftCol  { display: flex; flex-direction: column; gap: 20px; }
+.rightCol { display: flex; flex-direction: column; }
+
+/* ---- Card ---- */
+.card {
+  background: #fff;
+  border: 1px solid #F3F4F6;
+  border-radius: var(--radius-xl);
+  padding: 22px;
+  box-shadow: var(--shadow-sm);
+}
+
+.cardTitle {
+  font-size: 14px;
+  font-weight: 700;
+  color: #374151;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.cardTitle i { color: var(--color-primary); }
+
+/* ---- Registry IDs ---- */
+.idGrid { display: flex; flex-direction: column; gap: 10px; }
+
+.idRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 12px;
+  background: #F9FAFB;
+  border-radius: var(--radius-md);
+}
+
+.idLabel {
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  color: #9CA3AF;
+}
+
+.idVal {
+  font-size: 13px;
+  font-weight: 700;
+  color: #111827;
+  font-family: 'Courier New', monospace;
+}
+
+/* ---- Certifications ---- */
+.certList { display: flex; flex-direction: column; gap: 10px; }
+
+.certRow {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 10px;
+  border-radius: var(--radius-md);
+  background: #F9FAFB;
+}
+
+.certLeft {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  flex: 1;
+}
+
+.certLeft i { font-size: 15px; margin-top: 1px; flex-shrink: 0; }
+
+.certActive  { color: #059669; }
+.certPartial { color: #D97706; }
+
+.certName   { font-size: 13px; font-weight: 600; color: #111827; }
+.certIssuer { font-size: 11px; color: #6B7280; margin-top: 2px; }
+
+.certRight { display: flex; flex-direction: column; align-items: flex-end; gap: 4px; flex-shrink: 0; }
+
+.certStatusBadge {
+  font-size: 11px;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: var(--radius-full);
+}
+.certActive.certStatusBadge  { background: #ECFDF5; color: #059669; border: 1px solid #A7F3D0; }
+.certPartial.certStatusBadge { background: #FFFBEB; color: #D97706; border: 1px solid #FDE68A; }
+
+.certExpiry { font-size: 11px; color: #9CA3AF; }
+
+/* ---- NAICS ---- */
+.naicsList { display: flex; flex-direction: column; gap: 8px; }
+
+.naicsRow {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 10px 12px;
+  border-radius: var(--radius-md);
+  border: 1px solid #F3F4F6;
+  background: #fff;
+  transition: border-color 150ms;
+}
+.naicsRow:hover { border-color: #BFDBFE; }
+
+.naicsPrimary {
+  background: #EFF6FF;
+  border-color: #BFDBFE;
+}
+
+.naicsCode {
+  font-size: 13px;
+  font-weight: 700;
+  color: #374151;
+  font-family: 'Courier New', monospace;
+}
+
+.primaryTag {
+  margin-left: 8px;
+  font-size: 10px;
+  font-weight: 700;
+  background: #2563EB;
+  color: #fff;
+  padding: 1px 6px;
+  border-radius: var(--radius-full);
+  letter-spacing: .05em;
+  text-transform: uppercase;
+}
+
+.naicsDesc { font-size: 12px; color: #6B7280; }
+
+/* ---- Capability Statement ---- */
+.capBody { display: flex; flex-direction: column; gap: 12px; margin-bottom: 12px; }
+
+.capPara {
+  font-size: 13.5px;
+  line-height: 1.8;
+  color: #374151;
+}
+
+.expandBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--color-primary);
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+.expandBtn:hover { text-decoration: underline; }
+
+/* ---- Section Header ---- */
+.sectionHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 8px;
+  border-bottom: 2px solid #F3F4F6;
+}
+
+.sectionTitle {
+  font-size: 18px;
+  font-weight: 700;
+  color: #111827;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.sectionTitle i { color: var(--color-primary); }
+.sectionSub { font-size: 13px; color: #9CA3AF; }
+
+/* ---- Personnel ---- */
+.personnelGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.personnelCard {
+  background: #fff;
+  border: 1px solid #E5E7EB;
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  transition: transform 150ms, box-shadow 150ms;
+}
+.personnelCard:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0,0,0,.08);
+}
+
+.personnelHead {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 20px;
+  background: linear-gradient(135deg, #1E3A8A, #1E40AF);
+}
+
+.personnelAvatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: rgba(255,255,255,.2);
+  border: 2px solid rgba(255,255,255,.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  flex-shrink: 0;
+}
+
+.personnelName  { font-size: 15px; font-weight: 700; color: #fff; flex: 1; }
+.personnelTitle { font-size: 12px; color: #93C5FD; margin-top: 2px; }
+
+.clearanceBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 11px;
+  font-weight: 600;
+  color: #FDE68A;
+  background: rgba(245,158,11,.15);
+  border: 1px solid rgba(245,158,11,.3);
+  padding: 4px 10px;
+  border-radius: var(--radius-full);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.personnelBody { padding: 18px 20px; display: flex; flex-direction: column; gap: 14px; }
+
+.personnelSummary {
+  font-size: 13px;
+  line-height: 1.7;
+  color: #4B5563;
+}
+
+.personnelFooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.certTags { display: flex; flex-wrap: wrap; gap: 6px; }
+
+.certTag {
+  padding: 3px 8px;
+  font-size: 11px;
+  font-weight: 600;
+  background: #EFF6FF;
+  color: #2563EB;
+  border: 1px solid #BFDBFE;
+  border-radius: var(--radius-full);
+}
+
+.expBadge {
+  font-size: 12px;
+  font-weight: 600;
+  color: #6B7280;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.eduLine {
+  font-size: 12px;
+  color: #9CA3AF;
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
+}
+.eduLine i { margin-top: 2px; flex-shrink: 0; }
+
+/* ---- Past Performance ---- */
+.ppList { display: flex; flex-direction: column; gap: 20px; }
+
+.ppCard {
+  background: #fff;
+  border: 1px solid #E5E7EB;
+  border-radius: var(--radius-xl);
+  padding: 24px;
+  box-shadow: var(--shadow-sm);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  transition: border-color 200ms;
+}
+.ppCard:hover { border-color: #BFDBFE; }
+
+.ppHead {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+}
+.ppLeft  { flex: 1; }
+.ppTitle { font-size: 16px; font-weight: 700; color: #111827; margin-bottom: 4px; }
+.ppAgency{ font-size: 13px; color: #6B7280; }
+
+.cparsTag {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px;
+  border-radius: var(--radius-full);
+  border: 1px solid;
+  font-size: 13px;
+  font-weight: 700;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.ppMeta {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 12px 14px;
+  background: #F9FAFB;
+  border-radius: var(--radius-md);
+  font-size: 13px;
+  color: #374151;
+}
+.ppMeta i { color: #9CA3AF; margin-right: 4px; }
+
+.ppGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.ppSection {}
+.ppSectionTitle {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+  color: #9CA3AF;
+  margin-bottom: 8px;
+}
+.ppText {
+  font-size: 13px;
+  line-height: 1.7;
+  color: #4B5563;
+}
+
+.ppFooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding-top: 12px;
+  border-top: 1px solid #F3F4F6;
+  font-size: 12px;
+  color: #6B7280;
+}
+.ppFooter i { margin-right: 4px; }
+.ppCO { flex: 1; }
+.coEmail { color: var(--color-primary); }
+.coEmail:hover { text-decoration: underline; }
+
+/* ---- Responsive ---- */
+@media (max-width: 900px) {
+  .mainGrid      { grid-template-columns: 1fr; }
+  .personnelGrid { grid-template-columns: 1fr; }
+  .ppGrid        { grid-template-columns: 1fr; }
+  .banner        { flex-direction: column; align-items: flex-start; }
+}

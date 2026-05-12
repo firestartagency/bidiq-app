@@ -1,0 +1,112 @@
+{
+  "company": {
+    "name": "Apex Federal Solutions LLC",
+    "dba": null,
+    "uei": "J7K2M4N6P8Q1",
+    "cageCode": "8X4K2",
+    "ein": "83-4521907",
+    "founded": "2018",
+    "employees": 47,
+    "website": "www.apexfederalsolutions.com",
+    "headquarters": "Bethesda, MD 20814",
+    "samRegistration": "Active — Expires 2027-03-15",
+    "businessTypes": [
+      "Limited Liability Company (LLC)",
+      "Small Business",
+      "8(a) Participant (Active through 2028)",
+      "Service-Disabled Veteran-Owned Small Business (SDVOSB)",
+      "HUBZone Certified"
+    ],
+    "naicsCodes": [
+      { "code": "541512", "description": "Computer Systems Design Services", "primary": true },
+      { "code": "541611", "description": "Administrative Management Consulting", "primary": false },
+      { "code": "541519", "description": "Other Computer Related Services", "primary": false },
+      { "code": "236220", "description": "Commercial Building Construction", "primary": false },
+      { "code": "541330", "description": "Engineering Services", "primary": false }
+    ],
+    "certifications": [
+      { "name": "8(a) Business Development Program", "issuedBy": "SBA", "status": "Active", "expires": "2028-09-30" },
+      { "name": "Service-Disabled Veteran-Owned Small Business (SDVOSB)", "issuedBy": "VA / VIP Database", "status": "Active", "expires": null },
+      { "name": "HUBZone Certification", "issuedBy": "SBA", "status": "Active", "expires": "2027-06-15" },
+      { "name": "CMMC Level 2", "issuedBy": "Authorized C3PAO", "status": "In Progress (POA&M active)", "expires": null },
+      { "name": "ISO 9001:2015", "issuedBy": "Bureau Veritas", "status": "Active", "expires": "2027-11-30" }
+    ],
+    "facilitySecurityClearance": "Secret (active)",
+    "capabilityStatement": "Apex Federal Solutions LLC is a Bethesda, Maryland-based technology and management consulting firm serving the U.S. Federal Government since 2018. Founded by Army veteran Marcus R. Thorne, Apex holds active 8(a), SDVOSB, and HUBZone certifications, positioning the firm as a mission-ready small business partner for defense and civilian agencies alike.\n\nApex's core competency is the intersection of cybersecurity, IT infrastructure modernization, and program management — three capabilities that federal agencies increasingly require as a unified solution. Our team of 47 professionals includes cleared systems engineers, certified project managers (PMP), SOC analysts holding CompTIA Security+/CISSP credentials, and seasoned program administrators with over 15 years of combined federal contracting experience.\n\nOn the cybersecurity front, Apex operates a 24/7 Security Operations Center staffed by analysts certified in SPLUNK, CrowdStrike Falcon, and Tenable.sc. We have successfully supported DoD and Intelligence Community clients in threat detection, incident response, and vulnerability remediation — maintaining response SLAs across engagements with 99.97% uptime.\n\nOur IT infrastructure practice specializes in DoD STIG-compliant system configurations, network architecture design, and cloud migration to FedRAMP-authorized environments (AWS GovCloud, Azure Government). We have executed migrations for clients ranging from 200 to 5,000+ endpoints, consistently delivering on time and under budget.\n\nApex's program management team brings deep expertise in supporting federal program offices through the full program lifecycle — from requirements definition and acquisition planning through execution, reporting, and closeout. We are proficient in PMBOK and Agile/SAFe methodologies and leverage Microsoft Project, Power BI, and SharePoint as our standard PM toolset.\n\nWith a proven track record of zero contract terminations, three CPARS ratings of 'Exceptional' in the last 24 months, and a commitment to veteran employment (68% of staff are veterans or veteran spouses), Apex Federal Solutions is positioned to deliver mission-critical results for your agency."
+  },
+  "pastPerformance": [
+    {
+      "id": "pp-001",
+      "contractTitle": "Enterprise Cybersecurity Operations and SOC Support",
+      "contractNumber": "FA8773-23-C-0041",
+      "agency": "Air Force Materiel Command (AFMC)",
+      "agencyLocation": "Wright-Patterson AFB, OH",
+      "contractingOfficer": "Capt. Jennifer L. Brooks",
+      "coEmail": "jennifer.brooks@us.af.mil",
+      "value": "$3,100,000",
+      "valueRaw": 3100000,
+      "periodOfPerformance": "Oct 2023 – Sep 2025",
+      "setAside": "8(a) Sole Source",
+      "scopeSummary": "Provided 24/7 SOC monitoring, incident response, and vulnerability management for AFMC's unclassified enterprise network encompassing 3,200 endpoints across 4 installations. Operated SPLUNK SIEM, managed IDS/IPS systems, and executed monthly ACAS vulnerability scans with remediation tracking via POA&M.",
+      "keyOutcome": "Reduced mean time to detect (MTTD) from 4.2 hours to 38 minutes within the first 90 days. Achieved 99.98% SOC uptime over 24 months. Received CPARS rating of 'Exceptional' for all performance elements. Zero successful intrusions during the contract period; 14 active threats neutralized.",
+      "cparsRating": "Exceptional",
+      "relevanceToCurrentBids": ["bid-001"]
+    },
+    {
+      "id": "pp-002",
+      "contractTitle": "IT Infrastructure Modernization and Cloud Migration",
+      "contractNumber": "GS-35F-0042U / 47QTCA21D009E",
+      "agency": "Department of Veterans Affairs (VA), Office of Information Technology",
+      "agencyLocation": "Washington, D.C. (Hybrid)",
+      "contractingOfficer": "Patricia L. Dawson",
+      "coEmail": "patricia.dawson@va.gov",
+      "value": "$2,750,000",
+      "valueRaw": 2750000,
+      "periodOfPerformance": "Jan 2022 – Dec 2024",
+      "setAside": "SDVOSB",
+      "scopeSummary": "Assessed, planned, and executed migration of 1,800 on-premise workloads to AWS GovCloud for the VA's Office of Information Technology. Delivered full DoD STIG hardening of migrated systems, established CloudWatch monitoring dashboards, and provided Tier 2/3 infrastructure support throughout transition. Maintained FedRAMP High compliance posture throughout.",
+      "keyOutcome": "Migrated 100% of in-scope workloads 3 weeks ahead of schedule and $140K under budget. Cloud infrastructure achieved 99.96% uptime post-migration. Agency reported 22% reduction in infrastructure operating costs in first year. CPARS rating: 'Exceptional.'",
+      "cparsRating": "Exceptional",
+      "relevanceToCurrentBids": ["bid-001", "bid-002"]
+    },
+    {
+      "id": "pp-003",
+      "contractTitle": "Administrative and Program Management Support — Office of Government-wide Policy",
+      "contractNumber": "47QRAA20Q0087",
+      "agency": "General Services Administration (GSA), Office of Government-wide Policy",
+      "agencyLocation": "Washington, D.C.",
+      "contractingOfficer": "Samuel R. Whitfield",
+      "coEmail": "samuel.whitfield@gsa.gov",
+      "value": "$890,000",
+      "valueRaw": 890000,
+      "periodOfPerformance": "Apr 2021 – Mar 2024",
+      "setAside": "SDVOSB",
+      "scopeSummary": "Provided comprehensive administrative and program management support to GSA OGP, including stakeholder coordination, executive briefing preparation, data analysis using Power BI, and records management in NARA compliance. Supported 4 concurrent OGP program offices with a team of 6 FTEs.",
+      "keyOutcome": "Supported 3 successful policy initiatives through the full policy development lifecycle. Produced 48 executive-level briefings and 12 congressional correspondence packages without errors. Stakeholder satisfaction scores averaged 4.7/5.0 across all program offices. CPARS rating: 'Very Good.'",
+      "cparsRating": "Very Good",
+      "relevanceToCurrentBids": ["bid-002"]
+    }
+  ],
+  "keyPersonnel": [
+    {
+      "id": "kp-001",
+      "name": "Marcus R. Thorne",
+      "title": "President & Program Manager",
+      "clearance": "Top Secret / SCI",
+      "certifications": ["PMP", "CISSP", "AWS Certified Solutions Architect"],
+      "education": "M.S. Cybersecurity, George Mason University; B.S. Information Systems, Howard University",
+      "yearsExperience": 18,
+      "experienceSummary": "Marcus founded Apex Federal Solutions after 12 years of active duty service in the U.S. Army Signal Corps, where he led network operations and cybersecurity missions in CONUS and OCONUS environments. Post-service, he managed a $12M IT modernization portfolio at Booz Allen Hamilton before striking out on his own. As Apex's Program Manager, he serves as the primary client interface, oversees all technical delivery, and holds final accountability for contract performance. He has successfully managed 8 federal contracts to completion with no terminations and three CPARS Exceptional ratings."
+    },
+    {
+      "id": "kp-002",
+      "name": "Dr. Serena A. Washington",
+      "title": "Lead Security Engineer & SOC Director",
+      "clearance": "Top Secret",
+      "certifications": ["CISSP", "CEH", "CompTIA Security+", "SPLUNK Certified Architect"],
+      "education": "Ph.D. Information Assurance, George Washington University; B.S. Computer Science, Spelman College",
+      "yearsExperience": 14,
+      "experienceSummary": "Dr. Washington leads Apex's cybersecurity practice and directs day-to-day SOC operations. She brings 14 years of experience in threat intelligence, SIEM engineering, and incident response across DoD and Intelligence Community environments. Prior to Apex, she served as Deputy CISO at a defense contractor supporting NSA and DIA programs. Her doctoral research focused on AI-driven anomaly detection in military networks — a capability she has implemented operationally at Apex. She directly managed the SOC team during the AFMC engagement that achieved a 38-minute MTTD."
+    }
+  ]
+}

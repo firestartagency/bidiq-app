@@ -1,0 +1,175 @@
+[
+  {
+    "id": "bid-001",
+    "type": "RFP",
+    "solicitationNumber": "DISA-HC-2026-R-0042",
+    "title": "IT Infrastructure Modernization & Managed Security Services",
+    "agency": "Defense Information Systems Agency (DISA)",
+    "agencyShort": "DISA",
+    "naics": "541512",
+    "naicsDescription": "Computer Systems Design Services",
+    "setAside": "8(a) Small Business",
+    "value": "$4,200,000",
+    "valueRaw": 4200000,
+    "postedDate": "2026-04-28",
+    "dueDate": "2026-06-15",
+    "dueDateDisplay": "Jun 15, 2026",
+    "status": "In Review",
+    "placeOfPerformance": "Fort Meade, MD / Remote",
+    "periodOfPerformance": "Base year + 4 option years (5 years total)",
+    "pointOfContact": {
+      "name": "Sgt. Marcus T. Williams",
+      "email": "marcus.t.williams.civ@disa.mil",
+      "phone": "(301) 225-0000"
+    },
+    "synopsis": "The Defense Information Systems Agency (DISA) seeks a qualified 8(a) small business contractor to provide comprehensive IT infrastructure modernization and managed security services in support of DISA's mission to provide, operate, and assure command and control and information-sharing capabilities to support senior leaders. The contractor shall deliver enterprise-wide network infrastructure upgrades, 24/7 Security Operations Center (SOC) monitoring, vulnerability assessment and remediation, and cloud migration support in accordance with DoD Zero Trust Architecture guidelines.",
+    "pwsExcerpt": "The contractor shall provide the following services:\n\n1. NETWORK INFRASTRUCTURE MODERNIZATION: Assess, design, and implement upgrades to classified and unclassified network infrastructure including switching, routing, and wireless systems. All hardware must meet DoD STIG compliance requirements.\n\n2. MANAGED SECURITY SERVICES: Operate a 24/7 Security Operations Center (SOC) providing real-time monitoring of network traffic, intrusion detection/prevention (IDS/IPS), log aggregation via SIEM, and incident response within defined SLAs (P1: 15-min response, P2: 1-hour).\n\n3. CLOUD MIGRATION SUPPORT: Assist in migrating on-premise workloads to DoD-authorized cloud environments (AWS GovCloud, Azure Government) in accordance with DoD Cloud Strategy and FedRAMP High authorization requirements.\n\n4. VULNERABILITY MANAGEMENT: Conduct monthly vulnerability scans using approved tools (Tenable.sc, ACAS), produce POA&M reports, and remediate critical/high findings within 30 days of identification.\n\n5. REPORTING: Deliver monthly status reports, quarterly security posture assessments, and an annual infrastructure health review to the Contracting Officer's Representative (COR).",
+    "evaluationCriteria": [
+      {
+        "factor": "Technical Approach",
+        "weight": "Most Important",
+        "description": "Soundness of the proposed technical solution, methodology for infrastructure modernization, and approach to 24/7 SOC operations. Must demonstrate understanding of DoD Zero Trust Architecture."
+      },
+      {
+        "factor": "Past Performance",
+        "weight": "Second Most Important",
+        "description": "Recency and relevancy of prior contracts involving DoD IT infrastructure, managed security services, and cloud migration. Minimum 3 references required, at least 2 from federal agencies."
+      },
+      {
+        "factor": "Key Personnel",
+        "weight": "Third",
+        "description": "Qualifications and experience of the Program Manager, Lead Security Engineer, and SOC Lead. All key personnel must hold active Top Secret/SCI clearances."
+      },
+      {
+        "factor": "Price",
+        "weight": "Least Important (but must be fair and reasonable)",
+        "description": "Evaluated for reasonableness. Lowest price does not guarantee award."
+      }
+    ],
+    "sectionL": "Offerors shall submit proposals in two volumes: Volume I — Technical/Management Approach (25 pages max) and Volume II — Price/Cost. Volume I must address: (1) Technical Solution, (2) Management Approach, (3) Quality Control Plan, and (4) Transition Plan. Resumes for all Key Personnel must be included as an appendix (not counted toward page limit). All submissions must be delivered via DoD SAFE.",
+    "sectionM": "The Government will evaluate proposals using a Best Value Tradeoff process. Technical factors are more important than price. A technically superior proposal may be selected over a lower-priced proposal if the Government determines the additional technical value justifies the cost premium. Past Performance will be assessed for recency (within 5 years), relevancy, and quality.",
+    "complianceRequirements": [
+      "Active facility clearance (Secret minimum)",
+      "CMMC Level 2 certification or active POA&M",
+      "DoD STIG compliance capability",
+      "FedRAMP cloud experience",
+      "8(a) certification current and active",
+      "CAGE code and UEI registered in SAM.gov"
+    ],
+    "keyDeliverables": [
+      "Monthly Status Reports (MSR)",
+      "Quarterly Security Posture Assessment",
+      "Annual Infrastructure Health Review",
+      "POA&M reports (monthly)",
+      "Incident Response Reports (as needed)",
+      "Transition-In Plan (within 30 days of award)"
+    ]
+  },
+  {
+    "id": "bid-002",
+    "type": "RFQ",
+    "solicitationNumber": "47QRAA26Q0118",
+    "title": "Administrative and Program Management Support Services",
+    "agency": "General Services Administration (GSA)",
+    "agencyShort": "GSA",
+    "naics": "541611",
+    "naicsDescription": "Administrative Management and General Management Consulting Services",
+    "setAside": "Service-Disabled Veteran-Owned Small Business (SDVOSB)",
+    "value": "$1,100,000",
+    "valueRaw": 1100000,
+    "postedDate": "2026-05-01",
+    "dueDate": "2026-07-02",
+    "dueDateDisplay": "Jul 02, 2026",
+    "status": "Proposal Ready",
+    "placeOfPerformance": "Washington, D.C. (Hybrid — 3 days onsite)",
+    "periodOfPerformance": "1 base year + 2 option years",
+    "pointOfContact": {
+      "name": "Patricia M. Johnson",
+      "email": "patricia.johnson@gsa.gov",
+      "phone": "(202) 501-0000"
+    },
+    "synopsis": "The General Services Administration (GSA) requires administrative and program management support services for the Office of Government-wide Policy (OGP). The contractor shall provide expert program management, data analysis, stakeholder coordination, and administrative support to assist OGP in executing its mission of developing government-wide policies to achieve cost savings and administrative efficiencies across the Federal Government.",
+    "pwsExcerpt": "The contractor shall provide the following support services:\n\n1. PROGRAM MANAGEMENT SUPPORT: Assist Government Program Managers in planning, scheduling, and executing program activities. Maintain program schedules using Microsoft Project or equivalent. Facilitate weekly status meetings and produce meeting minutes within 2 business days.\n\n2. DATA ANALYSIS AND REPORTING: Collect, analyze, and synthesize program data from multiple sources. Prepare executive-level briefings, dashboards, and reports. Must be proficient in Excel, Power BI, and SharePoint.\n\n3. STAKEHOLDER COORDINATION: Support inter-agency coordination activities including scheduling, agenda development, and follow-up tracking. Manage stakeholder contact databases and distribution lists.\n\n4. ADMINISTRATIVE SUPPORT: Provide general administrative support including correspondence management, records management in compliance with NARA standards, travel coordination, and supply management.\n\n5. DOCUMENTATION: Draft, review, and finalize Standard Operating Procedures (SOPs), policy memos, briefing materials, and congressional correspondence as directed.",
+    "evaluationCriteria": [
+      {
+        "factor": "Technical Understanding",
+        "weight": "Most Important",
+        "description": "Demonstrated understanding of federal program management, GSA OGP mission, and administrative support in a high-volume government environment."
+      },
+      {
+        "factor": "Relevant Experience",
+        "weight": "Equal to Technical",
+        "description": "Prior experience supporting GSA or other civilian federal agencies in administrative and program management roles. At least 2 past performance references required."
+      },
+      {
+        "factor": "Price",
+        "weight": "Significant — simplified acquisition format",
+        "description": "Price will be a significant evaluation factor given the simplified acquisition threshold format. Must submit fully loaded hourly rates by labor category."
+      }
+    ],
+    "sectionL": "Quotes shall be submitted electronically via GSA eBuy. Submissions must include: (1) Technical Capability Statement (5 pages max), (2) Past Performance Matrix (2 references minimum), (3) Price Quote using attached RFQ pricing template (fully-burdened labor rates by CLIN). Quotes are due NLT 5:00 PM EST on the due date.",
+    "sectionM": "GSA will evaluate quotes using Lowest Price Technically Acceptable (LPTA) methodology. Quotes that meet or exceed the technical acceptability threshold and offer the lowest total evaluated price will be selected for award.",
+    "complianceRequirements": [
+      "SDVOSB certification verified in VA's VIP database",
+      "Active SAM.gov registration",
+      "Top Secret clearance eligible personnel for potential access",
+      "Microsoft 365 proficiency (Teams, SharePoint, Project)",
+      "NARA records management compliance"
+    ],
+    "keyDeliverables": [
+      "Weekly Status Reports",
+      "Monthly Program Dashboard",
+      "Meeting minutes (within 2 business days)",
+      "SOPs and policy documentation (as assigned)",
+      "Quarterly stakeholder engagement report"
+    ]
+  },
+  {
+    "id": "bid-003",
+    "type": "Sources Sought",
+    "solicitationNumber": "W912DY-26-SS-007",
+    "title": "Facility Operations & Maintenance — Market Research Notice",
+    "agency": "U.S. Army Corps of Engineers (USACE)",
+    "agencyShort": "USACE",
+    "naics": "236220",
+    "naicsDescription": "Commercial and Institutional Building Construction",
+    "setAside": "TBD (Market Research Phase)",
+    "value": "TBD — Estimated $2.5M–$6M",
+    "valueRaw": null,
+    "postedDate": "2026-05-05",
+    "dueDate": "2026-06-28",
+    "dueDateDisplay": "Jun 28, 2026",
+    "status": "New",
+    "placeOfPerformance": "Multiple USACE Districts — Midwest Region",
+    "periodOfPerformance": "TBD — anticipated 5-year base",
+    "pointOfContact": {
+      "name": "SSgt. Ronald H. Davis",
+      "email": "ronald.h.davis@usace.army.mil",
+      "phone": "(816) 389-0000"
+    },
+    "synopsis": "The U.S. Army Corps of Engineers (USACE) is conducting market research to identify qualified small business contractors capable of providing Facility Operations and Maintenance (O&M) services at government-owned facilities across the Midwest Region. This Sources Sought Notice is issued solely for market research purposes and does not constitute a solicitation or a promise to issue a solicitation. Responses will be used to determine the appropriate acquisition strategy and set-aside category. A formal solicitation is anticipated in Q4 FY2026.",
+    "pwsExcerpt": "Anticipated scope of services (subject to change in formal solicitation):\n\n1. FACILITY OPERATIONS: Operate and maintain building systems including HVAC, electrical, plumbing, fire suppression, and life safety systems at government-owned facilities ranging from 50,000–500,000 sq ft.\n\n2. PREVENTIVE MAINTENANCE: Execute comprehensive preventive maintenance programs in accordance with Army Facilities Maintenance Manual (AFMM) and UFC (Unified Facilities Criteria) standards.\n\n3. CORRECTIVE MAINTENANCE: Respond to and resolve facility maintenance work orders within defined response windows (Emergency: 2 hours, Urgent: 24 hours, Routine: 10 business days).\n\n4. SUSTAINABILITY: Implement energy conservation measures and support USACE's Sustainability and Energy Efficiency Program goals in accordance with EO 14057.\n\n5. SAFETY AND COMPLIANCE: Ensure all operations comply with OSHA, EPA, and Army safety standards. Maintain all required certifications and licenses.",
+    "evaluationCriteria": [
+      {
+        "factor": "Capability Assessment",
+        "weight": "N/A — Market Research Only",
+        "description": "USACE seeks to understand market capability, relevant experience, and bonding capacity of potential offerors. No formal evaluation criteria apply at this stage."
+      }
+    ],
+    "sectionL": "Interested parties should submit a Capability Statement (10 pages max) including: (1) Company overview and NAICS 236220 experience, (2) Relevant past performance (federal O&M contracts preferred), (3) Current bonding capacity, (4) Proposed teaming arrangements if applicable, (5) Socioeconomic status and certifications. Submissions via email to POC only — do not submit via SAM.gov.",
+    "sectionM": "N/A — This is a Sources Sought notice for market research purposes only. USACE will use responses to determine the appropriate acquisition strategy for the formal solicitation anticipated in Q4 FY2026.",
+    "complianceRequirements": [
+      "NAICS 236220 experience required",
+      "Active SAM.gov registration",
+      "Miller Act bonding capacity (anticipated)",
+      "Army safety certification (EM 385-1-1)",
+      "EPA environmental compliance capability"
+    ],
+    "keyDeliverables": [
+      "Capability Statement (for Sources Sought response)",
+      "Past Performance references (3 minimum)",
+      "Bonding capacity documentation",
+      "Teaming partner information (if applicable)"
+    ]
+  }
+]
